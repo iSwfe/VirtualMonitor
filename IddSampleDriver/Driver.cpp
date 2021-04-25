@@ -418,7 +418,7 @@ IndirectDeviceContext::~IndirectDeviceContext()
     m_ProcessingThread.reset();
 }
 
-#define NUM_VIRTUAL_DISPLAYS 5
+#define NUM_VIRTUAL_DISPLAYS 1
 
 void IndirectDeviceContext::InitAdapter()
 {
